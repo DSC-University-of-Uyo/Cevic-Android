@@ -19,6 +19,9 @@ ALTERNATIVELY
 ## Download the Apk file 
 
 1. Download the Apk file from the repo and install on your phone
+```bash
+https://github.com/DSC-University-of-Uyo/Cevic-Android/blob/master/app/app-debug.apk
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
