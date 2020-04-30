@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/slideFragment"
+
+    >
+
+    <fragment
+        android:id="@+id/slideFragment"
+        android:name="com.android.cevic.view.fragment.SlideFragment"
+        android:label="fragment_slide"
+        tools:layout="@layout/fragment_slide">
+
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.android.cevic.view.fragment.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/inquiryFragment"
+        android:name="com.android.cevic.view.fragment.InquiryFragment"
+        android:label="fragment_inquiry"
+        tools:layout="@layout/fragment_inquiry" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.android.cevic.view.fragment.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
